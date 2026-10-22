@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "I'll See You Tomorrow Hoodie",
+    "price": 650,
+    "category": "tops",
+    "fit": "oversized",
+    "image": "hoodie_1.webp",
+    "description": "Heavyweight fleece for people who think 'cozy' is a personality trait.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Near-Black"],
+    "tag": "Bestseller"
+  },
+  {
+    "id": 2,
+    "name": "Relab Hoodie",
+    "price": 650,
+    "category": "tops",
+    "fit": "regular",
+    "image": "hoodie_2.webp",
+    "description": "Soft enough to nap in, loud enough to wake up in.",
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Blue"],
+    "tag": "New"
+  },
+  {
+    "id": 3,
+    "name": "Feral Cargo Pants",
+    "price": 1300,
+    "category": "bottoms",
+    "fit": "relaxed",
+    "image": ["cargo_3.webp", "cargo_2.webp", "cargo_1.webp"],
+    "description": "Six pockets. Zero chill. Built for people who lose their keys weekly.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": ["Black", "Sand", "White"],
+    "tag": "New"
+  },
+  {
+    "id": 4,
+    "name": "Amiri Hoodie",
+    "price": 750,
+    "category": "tops",
+    "fit": "oversized",
+    "image": "hoodie_3.webp",
+    "description": "Made for the 3pm sun that ruins your whole personality.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["Red"],
+    "tag": "New"
+  },
+  {
+    "id": 5,
+    "name": "Denim Jacket",
+    "price": 2800,
+    "category": "outerwear",
+    "fit": "regular",
+    "image": "jeans_jacket_1.webp",
+    "description": "The one you'll fight your roommate over. Buy them their own.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue"],
+    "tag": "Limited"
+  },
+  {
+    "id": 6,
+    "name": "The Winter Is Coming",
+    "price": 3200,
+    "category": "outerwear",
+    "fit": "regular",
+    "image": "jeans_jacket_2.webp",
+    "description": "With a coat that will make you feel like a dragon. Or at least a dragon's cousin.",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blue"],
+    "tag": "Winter Collection"
+  },
+  {
+    "id": 7,
+    "name": "Fuzzy?",
+    "price": 1600,
+    "category": "outerwear",
+    "fit": "relaxed",
+    "image": "jeans_jacket_3.webp",
+    "description": "Distressed like your sleep schedule.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Washed Blue"],
+    "tag": "New"
+  },
+  {
+    "id": 8,
+    "name": "Denim",
+    "price": 1200,
+    "category": "bottoms",
+    "fit": "wide",
+    "image": ["jeans_blue.webp", "jeans_black.webp"],
+    "description": "A Classic.",
+    "sizes": ["36", "38", "40", "42"],
+    "colors": ["Blue", "Black"],
+    "tag": "Bestseller"
+  },
+  {
+    "id": 9,
+    "name": "Multiple Personalities",
+    "price": 750,
+    "category": "accessories",
+    "image": "bracelet_2.webp",
+    "description": "If your wrists feel naked.",
+    "sizes": ["One Size"],
+    "colors": ["Multi-Color"],
+    "tag": "Bestseller"
+  },
+  {
+    "id": 10,
+    "name": "Jaguar",
+    "price": 250,
+    "category": "accessories",
+    "image": "bracelet_1.webp",
+    "description": "Don't mess with the Jaguar!",
+    "sizes": ["One Size"],
+    "colors": ["Black-Gold"],
+    "tag": "Bestseller"
+  }
+]

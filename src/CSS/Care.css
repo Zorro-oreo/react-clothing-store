@@ -1,0 +1,199 @@
+#care {
+    background-color: var(--bg);
+}
+
+.care-hero {
+    padding: 80px 120px;
+    gap: 60px;
+}
+
+.care-hero-text h1 {
+    font-family: var(--font-heading);
+    font-size: 56px;
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.care-hero-text p {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: var(--muted);
+    max-width: 480px;
+}
+
+.care-hero-image {
+    width: 640px;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 3px solid var(--muted);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.care-fabrics {
+    background-color: var(--bg-2);
+    padding: 60px 120px 80px;
+}
+
+.care-fabrics h2 {
+    font-family: var(--font-heading);
+    font-size: 36px;
+    color: var(--text);
+    margin-bottom: 30px;
+}
+
+.care-fabrics-grid {
+    gap: 30px;
+}
+
+.care-fabric-card {
+    flex: 1;
+}
+
+.care-fabric-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 3px solid var(--muted);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.care-fabric-card h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.care-fabric-meta {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.care-fabric-desc {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--muted);
+}
+
+.care-washing {
+    padding: 80px 120px;
+    gap: 60px;
+}
+
+.care-washing-text {
+    max-width: 380px;
+    flex-shrink: 0;
+}
+
+.care-washing-text h2 {
+    font-family: var(--font-heading);
+    font-size: 36px;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+
+.care-washing-text p {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--muted);
+}
+
+.care-washing-steps {
+    flex: 1;
+}
+
+.care-washing-step {
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.care-washing-step:last-child {
+    border-bottom: none;
+}
+
+.care-washing-number {
+    background-color: var(--accent-2);
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.care-washing-step h3 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.care-washing-step p {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--muted);
+}
+
+.care-repairs {
+    background-color: var(--accent-hover);
+    padding: 80px 120px;
+    gap: 60px;
+}
+
+.care-repairs-text {
+    max-width: 420px;
+}
+
+.care-repairs-text h2 {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    color: var(--bg);
+    margin-bottom: 16px;
+}
+
+.care-repairs-text p {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: color-mix(in srgb, var(--bg) 80%, transparent);
+}
+
+.care-repairs-stats {
+    flex: 1;
+    max-width: 460px;
+}
+
+.care-repairs-stat {
+    gap: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--bg) 25%, transparent);
+}
+
+.care-repairs-stat:last-child {
+    border-bottom: none;
+}
+
+.care-repairs-value {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    color: var(--bg);
+    width: 130px;
+    flex-shrink: 0;
+}
+
+.care-repairs-label {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: color-mix(in srgb, var(--bg) 85%, transparent);
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:wght@400;600;700&display=swap');
+
+.navbar-blur {
+    background-color: color-mix(in srgb, var(--surface) 70%, transparent) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid color-mix(in srgb, var(--muted) 30%, transparent) !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    will-change: transform;
+    transform: translateZ(0);
+}
+.navbar-blur .navbar-brand,
+.navbar-blur .nav-link {
+    color: var(--text) !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+.navbar-blur .navbar-brand{
+    font-family: var(--font-heading) !important;
+    font-weight: 400 !important;
+    font-size: 28px !important;
+}
+.navbar-blur .nav-link:hover {
+    color: var(--accent) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 10px !important;
+}
+.navbar-blur .nav-link.active {
+    color: var(--text) !important;
+    text-decoration: underline !important;
+    text-decoration-color: var(--accent) !important;
+    text-underline-offset: 10px !important;
+}
+.cart{
+    display: flex !important;
+    justify-content: center !important;
+    background-color: var(--accent) !important;
+    color: var(--white) !important;
+    border-radius: 50px !important;
+    border: none !important;
+    width: 90px !important;
+    height: 45px !important;
+    align-items: center !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+.cart:hover{
+    background-color: var(--accent-hover) !important;
+    color: var(--white) !important;
+    .count{
+        background-color: var(--accent-bright-hover) !important;
+    }
+}
+.count{
+    display: flex !important;
+    justify-content: center !important;
+    background-color: var(--accent-bright) !important;
+    color: var(--white) !important;
+    border-radius: 50% !important;
+    border: none !important;
+    width: 19px !important;
+    height: 22px !important;
+    align-items: center !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    margin-left: 5px !important;
+}
+.menu{
+    display: flex !important;
+    justify-content: center !important;
+    background-color: transparent !important;
+    color: var(--text) !important;
+    border-radius: 50px !important;
+    border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent) !important;
+    width: 80px !important;
+    height: 45px !important;
+    align-items: center !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+.menu:hover{
+    background-color: color-mix(in srgb, var(--gray) 50%, transparent) !important;
+}
+.nav-dot {
+    color: var(--accent);
+}

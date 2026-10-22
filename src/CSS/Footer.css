@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:wght@400;600;700&display=swap');
+
+.site-footer {
+    background-color: var(--bg) !important;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-body);
+    width: 100%;
+    padding: 60px 80px 40px 120px;
+}
+
+.footer-top {
+    width: 100%;
+}
+
+.footer-brand {
+    width: 340px;
+}
+
+.footer-logo {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    color: var(--text) !important;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.footer-dot {
+    color: var(--accent);
+}
+
+.footer-brand p {
+    color: var(--muted);
+    font-size: 16px;
+    max-width: 260px;
+    margin: 0;
+}
+
+.footer-links h3 {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 16px;
+}
+
+.footer-links a {
+    display: block;
+    color: var(--accent-hover);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-links a:hover {
+    color: var(--accent);
+}
+
+.footer-copyright {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}

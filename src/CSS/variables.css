@@ -1,0 +1,17 @@
+:root {
+    --font-heading: "Caprasimo", system-ui, sans-serif;
+    --font-body: "Figtree", system-ui, sans-serif;
+    --bg: #f5ead8;
+    --bg-2: #e7d2b2;
+    --surface: #ebddc5;
+    --text: #201e1d;
+    --accent: #c67139;
+    --accent-bright: #d9966f;
+    --accent-bright-hover: #cb9174;
+    --accent-hover: #a65c2e;
+    --accent-2: #d6e4bf;
+    --muted: #645c50;
+    --line: #dcd3c4;
+    --white: #ffffff;
+    --gray: #f0f0f0;
+}

@@ -1,0 +1,95 @@
+#lookbook{
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 16px;
+}
+.dot{
+    background-color: var(--accent) !important;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+#lookbook-title{
+    gap: 320px;
+}
+.landing{
+    padding-top: 100px;
+    margin-left: 100px;
+}
+#lookbook-text h1{
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 82px;
+    margin: 0;
+    padding: 0;
+}
+.collection {
+    background-color: var(--accent-2) !important;
+    border-radius: 35px;
+    border: none;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.collection p{
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+.shop-now{
+    background-color: var(--accent) !important;
+    color: var(--white) !important;
+    border-radius: 100px !important;
+    border: none !important;
+    width: 200px !important;
+    height: 55px !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+.shop-now:hover{
+    background-color: var(--accent-hover) !important;
+    color: var(--white) !important;
+}
+.lookbook-desc {
+    color: var(--muted);
+    max-width: 500px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.lookbook-image {
+    width: 88%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 3px solid var(--muted);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.lookbook-caption {
+    margin-top: 20px;
+    text-align: right;
+    width: 550px;
+}
+.lookbook-caption h3 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+}
+.sub-landing{
+    height: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+img:hover {
+    transform: scale(1.02);
+}

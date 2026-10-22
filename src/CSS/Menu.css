@@ -1,0 +1,50 @@
+#menu {
+    background-color: var(--bg);
+    min-height: 100vh;
+    padding: 40px 60px;
+    position: relative;
+}
+
+.menu-topbar {
+    margin-bottom: 60px;
+}
+
+.menu-brand {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.menu-close {
+    background-color: transparent !important;
+    color: var(--text) !important;
+    border-radius: 50px !important;
+    border: 1px solid color-mix(in srgb, var(--muted) 20%, transparent) !important;
+    padding: 10px 24px !important;
+    font-family: var(--font-body) !important;
+    font-weight: 600 !important;
+}
+.menu-close:hover {
+    background-color: color-mix(in srgb, var(--gray) 50%, transparent) !important;
+}
+
+.menu-link {
+    font-family: var(--font-heading);
+    font-size: 72px;
+    line-height: 1.15;
+    color: var(--text);
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: var(--accent);
+}
+
+.menu-footer-note {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--muted);
+}
